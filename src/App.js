@@ -45,8 +45,6 @@ function App() {
                       body: fileList[i]
                       });
             });
-          }).then(function(response) {
-            console.log('111');
           });
     }
   };
