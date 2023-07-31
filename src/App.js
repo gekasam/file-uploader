@@ -43,8 +43,8 @@ function App() {
                       fetch(value.href, {
                       method: 'PUT',
                       body: fileList[i]
-                      });
-            }).then((response) => console.log(response));
+                      }).then((response) => console.log(response));
+            });
           });
     }
   };
