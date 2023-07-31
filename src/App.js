@@ -44,7 +44,7 @@ function App() {
                       method: 'PUT',
                       body: fileList[i]
                       });
-            }).then((data) => console.log(data));
+            }).then((response) => console.log(response.json()));
           });
     }
   };
