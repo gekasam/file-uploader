@@ -46,7 +46,7 @@ function App() {
                       });
             });
           }).then(function(response) {
-            console.log(response.json);
+            console.log('111');
           });
     }
   };
